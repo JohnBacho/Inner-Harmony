@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inner Harmony</title>
+    <!-- Required meta tags -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Images/logo 1.svg" type="image/svg" />
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <meta
+      name="description"
+      content="Fill out our anonymous mental health support form to reach out for yourself or someone 
+      else in need of mental health assistance. Women are twice as likely as men to experience mood disorders, 
+      and seeking help is an essential step toward recovery. Our confidential support system connects you with 
+      the right resources, providing access to professional mental health services tailored to women's needs.
+       Whether you're facing anxiety, depression, or other mental health challenges, reaching out for support can 
+       make all the difference in your journey toward well-being. Take the first step today and prioritize your mental
+        health or support someone you care about."
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: #bfa2db">
+        <div class="navbar-brand d-flex align-items-center">
+          <img
+            src="Images/logo 1.svg"
+            alt="affirmations and Natter yarn ball logo"
+            class="img-fluid"
+            style="max-width: 70px; padding-left: 20px"
+          />
+          <span class="navbar-text">Inner Harmony</span>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="collapsibleNavId"
+        >
+          <ul class="navbar-nav nav-pills custom-pill mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="DailyAffirmations.html"
+                >Daily Affirmations</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html">Information</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                aria-current="page"
+                style="color: rgb(185, 185, 185) !important"
+                >Assessment</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="form-container">
+        <h1>I am reaching out</h1>
+        <form>
+          <label for="reachFor"
+            >Are you reaching out for yourself or someone else?</label
+          >
+          <select id="reachFor" name="reachFor" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="self">Myself</option>
+            <option value="someone-else">Someone else</option>
+          </select>
+
+          <div class="row">
+            <div class="col-half">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="col-half">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-half">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="col-half">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+
+          <label for="aboutYou">Tell us about You!</label>
+          <textarea id="aboutYou" name="aboutYou" rows="4"></textarea>
+
+          <label for="preferredContact">Preferred way to contact</label>
+          <input type="text" id="preferredContact" name="preferredContact" />
+
+          <div class="row">
+            <div class="col-half">
+              <label for="state">State</label>
+              <input type="text" id="state" name="state" />
+            </div>
+            <div class="col-half">
+              <label for="ageGroup">Age Group</label>
+              <input type="text" id="ageGroup" name="ageGroup" />
+            </div>
+          </div>
+
+          <label for="condition">Condition</label>
+          <input type="text" id="condition" name="condition" />
+
+          <label for="otherCondition"
+            >If you clicked "Other", please specify here</label
+          >
+          <input type="text" id="otherCondition" name="otherCondition" />
+
+          <label for="additionalInfo"
+            >If there was anything you want to tell us, but were unable to
+            answer above, please explain here</label
+          >
+          <textarea
+            id="additionalInfo"
+            name="additionalInfo"
+            rows="4"
+          ></textarea>
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+
+      <div class="recoveringtext">
+        <h2>Recovering From Mental Health Issues</h2>
+        <p>
+          Women are twice as likely as men to experience mood disorders like
+          depression, OCD, anxiety, bipolar, and more. Mood disorders are
+          complex conditions and require treatment. Roughly 40% of women report
+          that their mental health has been severely affected by their menstrual
+          cycle, pregnancy, post-partum, or menopause. At Inner Harmony, we take
+          pride in assisting women who are struggling with mental health issues.
+          We work with several specialists who can assist women of all ages and
+          backgrounds. We have specialists who work with women who are going
+          through their menstrual cycle, menopause, or even women who are going
+          through postpartum depression. Inner Harmony offers resources and
+          supportive systems to help those struggling to receive the help they
+          need. Through our resources, we can help women of all ages manage
+          their mental health struggles&nbsp;easier. <br /><br />
+          While you, or someone you know struggle with mental health issues, you
+          are not alone. We will assist you in finding a support system to
+          assure you receive the support you&nbsp;need.
+          <br /><br />
+          If you, or someone you know are struggling, please contact us for a
+          complimentary and confidential&nbsp;consultation.
+          <br /><br />
+          Please fill out the questionnaire so we can better assist you. The
+          more information provided to us, the more likely we will be able to
+          assure you support and&nbsp;resources.
+          <br /><br />
+          After you submit the form on this page, you will be assigned a
+          licensed specialist who will schedule a confidential, free
+          appointment. Specialists are assigned based on your answers to the
+          questionnaire, and your specialist will specialize in issues that
+          either pertain to your situation or are similar to your situation.
+          They will meet with you and inform you of the various resources that
+          may benefit you and gain an understanding of your situation. Our teams
+          work closely with you to ensure that we foster a supportive,
+          understanding environment for&nbsp;you.
+        </p>
+      </div>
+
+      <!-- Footer -->
+      <section>
+        <footer
+          class="text-center text-white"
+          style="background-color: #c0a2db"
+        >
+          <div class="container p-4 pb-0">
+            <section>
+              <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3"
+                  ><a id="FooterPhoneNum" href="tel:+1440-232-1233"
+                    >440-232-1233</a
+                  ></span
+                >
+                <span class="me-3"
+                  ><a
+                    id="FooterMail"
+                    href="mailto:affirmations&natter@email.com"
+                    >InnerHarmony@gmail.com</a
+                  ></span
+                >
+              </p>
+            </section>
+          </div>
+
+          <div
+            class="text-center p-3 font"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © 2025 Copyright:
+            <a class="text-white">InnerHarmony.com</a>
+          </div>
+        </footer>
+      </section>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>
