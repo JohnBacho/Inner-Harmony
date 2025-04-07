@@ -280,14 +280,6 @@ body {
   margin-bottom: 0;
 }
 
-.affirmations-name {
-  margin: 0.2;
-  font-family: "Lato", sans-serif;
-  font-style: italic;
-  color: #fcfce5;
-  font-size: small;
-}
-
 .affirmations-text {
   font-family: "Poppins";
   color: white;
@@ -548,15 +540,6 @@ body {
   }
 }
 
-.ContactUs {
-  margin-bottom: 120px !important ;
-}
-#phoneicon,
-#Mail-icon {
-  max-width: 80px;
-  margin-top: 25px !important;
-}
-
 #PhoneNumber,
 #mailaddress {
   font-size: 40px;
@@ -579,29 +562,6 @@ body {
 
 center {
   margin-left: 40px !important;
-}
-
-#share-form h2 {
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #333;
-  margin-top: -40px !important;
-  font-family: "Playfair Display", serif !important;
-}
-#share-form p.lead {
-  color: #6c757d;
-  margin-bottom: 40px;
-  font-family: "Lora", sans-serif !important;
-}
-
-#share-form form {
-  background: #fff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-#share-form .form-control {
-  border-radius: 4px;
 }
 
 #image-container {
@@ -642,22 +602,6 @@ center {
   color: #333;
 }
 
-#EventsCoffeeContainer {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-
-#EventsCoffeetitle {
-  font-family: "Playfair Display", serif;
-}
-
-#EventsCoffeep {
-  font-family: "Lora", sans-serif !important;
-  color: #555555;
-}
-
 .rounded-image {
   width: 90%;
   max-height: 200px;
@@ -667,14 +611,6 @@ center {
 }
 .rounded-image:hover {
   transform: scale(1.05);
-}
-
-#location {
-  margin-top: -20px;
-}
-
-#when {
-  font-size: 16px;
 }
 
 .event-container {
@@ -730,23 +666,6 @@ center {
 
 .round-img {
   border-radius: 50px !important;
-}
-
-.charityheader h3 {
-  font-family: "Playfair Display", serif;
-  font-size: xx-large;
-  max-width: 400px;
-}
-
-.charityheader p {
-  font-family: "Lora", sans-serif !important;
-  font-size: large;
-  color: #555;
-  max-width: 400px;
-}
-
-.bargraphs span {
-  font-family: "Playfair Display", serif;
 }
 
 #SignUpToday {
