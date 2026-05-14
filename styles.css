@@ -2,8 +2,8 @@
 
 .navbar-text {
   font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 600;
+  font-size: 26px;
   color: white !important;
   margin-left: 10px;
 }
@@ -29,7 +29,7 @@
 .custom-pill .nav-link.active,
 .custom-pill .nav-link:hover {
   color: #cfcfcf !important;
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .navbar-toggler + .navbar-toggler {
@@ -47,7 +47,7 @@
 .nav-link {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 20px !important;
+  font-size: 18px !important;
   color: white !important;
 }
 
